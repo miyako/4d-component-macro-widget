@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE macros SYSTEM "http://www.4d.com/dtd/2007/macros.dtd" >
+
+<macros>
+
+	<macro 
+		in_menu =			"true" 
+		method_event =		""
+		name =				"Widget Wizard" 
+		type_ahead =		"true"
+		type_ahead_text =	"widgetwizard"
+		version =			"2">
+		
+		<text><method>Template_Macro(&quot;<method_name />&quot;)</method></text>
+	</macro>
+	
+	<macro 
+		in_menu =			"true" 
+		method_event =		""
+		name =				"OBJECT Get pointer [this name]" 
+		type_ahead =		"true"
+		type_ahead_text =	"objectgetpointerfornamedobject"
+		version =			"2">
+		
+		<text><method>This_Macro(&quot;<method_name />&quot;)</method></text>
+	</macro>
+
+	<macro 
+		in_menu =			"true" 
+		method_event =		""
+		name =				"OBJECT Get pointer [child name]" 
+		type_ahead =		"true"
+		type_ahead_text =	"objectgetpointerfornamedchildobject"
+		version =			"2">
+		
+		<text><method>Child_Macro(&quot;<method_name />&quot;)</method></text>
+	</macro>
+	
+</macros>
+
